@@ -31,7 +31,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir project
-          unzip -q ZhidaLearningAssistant_v0.1.0.zip -d project
+          unzip -q ZhidaLearningAssistant_v0.1.1_fixed.zip -d project
 
       - name: Build APK
         working-directory: project
